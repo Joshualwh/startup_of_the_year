@@ -1,0 +1,63 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* background-image:url(header.jpg); */
+  /* background-size: 100% 100%; */
+
+  background: url(header.jpg) no-repeat center center fixed; 
+  /* VERY useful trick to have a very flexible background. */
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; */
+  /* width: 70%; */
+  /* padding-top: 280px;
+  padding-bottom: 180px; */
+  /* border: 3px solid white; */
+
+}
+
+.buffer {
+  height: 10rem;
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+  border-radius: 500px;  
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; */
+  color: white;
+  background-color: #F05F44;
+  border-color: #F05F44;
+  transition: all 1s;
+  /* width: 100%;
+  height: 75%; */
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  animation: infinite;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
